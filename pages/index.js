@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import SmallCard from "../components/SmallCard";
 import MediumCard from "../components/MediumCard";
+import LargeCard from "../components/LargeCard";
 
 export default function Home({ exploreData, cardsData }) {
   return (
@@ -38,6 +39,12 @@ export default function Home({ exploreData, cardsData }) {
             ))}
           </div>
         </section>
+        <LargeCard
+          img="https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1440"
+          title="Try hosting"
+          description="Earn extra income and unlock new opportunities by sharing your space"
+          buttonText="Learn more"
+        />
       </main>
     </div>
   );
