@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import SmallCard from "../components/SmallCard";
 import MediumCard from "../components/MediumCard";
 import LargeCard from "../components/LargeCard";
+import Footer from "../components/Footer";
 
 export default function Home({ exploreData, cardsData }) {
   return (
@@ -46,6 +47,7 @@ export default function Home({ exploreData, cardsData }) {
           buttonText="Learn more"
         />
       </main>
+      <Footer />
     </div>
   );
 }
